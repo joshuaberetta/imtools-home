@@ -1,0 +1,22 @@
+- title: Humanitarian Geocoder
+  description: Geocode addresses and match them to official administrative boundaries using standard P-codes.
+  url: https://geocoder.imtools.info
+  button_text: Open Tool
+  active: true
+
+- title: Link Shortener
+  description: Create, manage, and track short URLs for easy sharing.
+  url: https://link.imtools.info
+  button_text: Open Tool
+  active: true
+
+- title: KoboToolbox Bulk Permissions Manager
+  description: Manage bulk user permissions from a spreadsheet template to increase project management efficiency for large teams.
+  url: https://bulk-perms.imtools.info
+  button_text: Open Tool
+  active: true
+
+- title: More Tools Coming Soon
+  description: We are constantly building more tools to support humanitarian operations.
+  button_text: Coming Soon
+  active: false
