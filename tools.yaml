@@ -16,6 +16,12 @@
   button_text: Open Tool
   active: true
 
+- title: XLSForm Expert Claude Skill
+  description: Use Claude.ai to help you create and troubleshoot XLSForms for KoboToolbox and ODK.
+  url: https://link.imtools.info/xlsform-expert
+  button_text: Open Tool
+  active: true
+
 - title: More Tools Coming Soon
   description: We are constantly building more tools to support humanitarian operations.
   button_text: Coming Soon
