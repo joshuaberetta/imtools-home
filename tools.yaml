@@ -22,6 +22,12 @@
   button_text: Open Tool
   active: true
 
+- title: QR Coder API
+  description: Generate QR codes programmatically for URLs, text, and other data types using a simple API.
+  url: https://qrcoder.imtools.info
+  button_text: Open Tool
+  active: true
+
 - title: KoboToolbox Bulk Data Import Script
   description: Import large datasets into KoboToolbox projects from Excel files.
   url: https://github.com/joshuaberetta/kobo-bulk-import
