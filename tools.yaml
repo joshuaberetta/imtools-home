@@ -4,6 +4,12 @@
   button_text: Open Tool
   active: true
 
+- title: Kobo Proxy
+  description: Generate and manage proxied export links for KoboToolbox projects to enhance data security and control when connecting to external services.
+  url: https://kobo-proxy.imtools.info
+  button_text: Open Tool
+  active: true
+
 - title: Link Shortener
   description: Create, manage, and track short URLs for easy sharing.
   url: https://link.imtools.info
@@ -13,6 +19,18 @@
 - title: KoboToolbox Bulk Permissions Manager
   description: Manage bulk user permissions from a spreadsheet template to increase project management efficiency for large teams.
   url: https://bulk-perms.imtools.info
+  button_text: Open Tool
+  active: true
+
+- title: KoboToolbox Bulk Data Import Script
+  description: Import large datasets into KoboToolbox projects from Excel files.
+  url: https://github.com/joshuaberetta/kobo-bulk-import
+  button_text: Open Tool
+  active: true
+
+- title: Kobo Transfer Script
+  description: Transfer forms and data between KoboToolbox accounts and servers.
+  url: https://github.com/kobotoolbox/kobo-transfer
   button_text: Open Tool
   active: true
 
