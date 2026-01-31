@@ -16,6 +16,12 @@
   button_text: Open Tool
   active: true
 
+- title: Audit2Geo
+  description: Convert KoboToolbox audit logs into geospatial data for visualization and analysis.
+  url: https://audit2geo.imtools.info
+  button_text: Open Tool
+  active: true
+
 - title: KoboToolbox Bulk Permissions Manager
   description: Manage bulk user permissions from a spreadsheet template to increase project management efficiency for large teams.
   url: https://bulk-perms.imtools.info
