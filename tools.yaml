@@ -1,49 +1,61 @@
 - title: Humanitarian Geocoder
   description: Geocode addresses and match them to official administrative boundaries using standard P-codes.
   url: https://geocoder.imtools.info
+  github: https://github.com/joshuaberetta/jamaica-geocoder
   button_text: Open Tool
   active: true
 
 - title: Kobo Proxy
   description: Generate and manage proxied export links for KoboToolbox projects to enhance data security and control when connecting to external services.
   url: https://kobo-proxy.imtools.info
+  github: https://github.com/joshuaberetta/kobo-pbi-proxy
   button_text: Open Tool
   active: true
 
 - title: Link Shortener
   description: Create, manage, and track short URLs for easy sharing.
   url: https://link.imtools.info
+  github: https://github.com/joshuaberetta/url-shortener
   button_text: Open Tool
   active: true
 
 - title: Audit2Geo
   description: Convert KoboToolbox audit logs into geospatial data for visualization and analysis.
   url: https://audit2geo.imtools.info
+  github: https://github.com/joshuaberetta/audit2geo
   button_text: Open Tool
   active: true
 
 - title: KoboToolbox Bulk Permissions Manager
   description: Manage bulk user permissions from a spreadsheet template to increase project management efficiency for large teams.
   url: https://bulk-perms.imtools.info
+  github: https://github.com/joshuaberetta/kobo-bulk-permissions
   button_text: Open Tool
   active: true
 
 - title: QR Coder API
   description: Generate QR codes programmatically for URLs, text, and other data types using a simple API.
   url: https://qrcoder.imtools.info
+  github: https://github.com/joshuaberetta/qrcoder
   button_text: Open Tool
   active: true
 
 - title: KoboToolbox Bulk Data Import Script
   description: Import large datasets into KoboToolbox projects from Excel files.
-  url: https://github.com/joshuaberetta/kobo-bulk-import
-  button_text: Open Tool
+  github: https://github.com/joshuaberetta/kobo-bulk-import
+  button_text: View on GitHub
   active: true
 
 - title: Kobo Transfer Script
   description: Transfer forms and data between KoboToolbox accounts and servers.
-  url: https://github.com/kobotoolbox/kobo-transfer
-  button_text: Open Tool
+  github: https://github.com/kobotoolbox/kobo-transfer
+  button_text: View on GitHub
+  active: true
+
+- title: Kobomedia
+  description: Download media files from KoboToolbox projects in bulk.
+  github: https://github.com/joshuaberetta/kobomedia
+  button_text: View on GitHub
   active: true
 
 - title: XLSForm Expert Claude Skill

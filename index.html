@@ -127,6 +127,13 @@
             flex-grow: 1;
         }
         
+        .button-group {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
         .btn-tool {
             display: inline-block;
             padding: 10px 20px;
@@ -139,11 +146,28 @@
             transition: background 0.2s;
             border: none;
             cursor: pointer;
-            align-self: flex-start;
         }
         
         .btn-tool:hover {
             background: #357abd;
+        }
+        
+        .btn-github {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #24292e;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 14px;
+            text-align: center;
+            transition: background 0.2s;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .btn-github:hover {
+            background: #1b1f23;
         }
         
         .btn-disabled {
@@ -191,55 +215,87 @@
             <div class="tool-card">
                 <h3>Humanitarian Geocoder</h3>
                 <p>Geocode addresses and match them to official administrative boundaries using standard P-codes.</p>
-                <a href="https://geocoder.imtools.info" target="_blank" class="btn-tool">Open Tool</a>
+                <div class="button-group">
+                    <a href="https://geocoder.imtools.info" class="btn-tool" target="_blank">Open Tool</a>
+                    <a href="https://github.com/joshuaberetta/jamaica-geocoder" class="btn-github" target="_blank">View on GitHub</a>
+                </div>
             </div>
             
             <div class="tool-card">
                 <h3>Kobo Proxy</h3>
                 <p>Generate and manage proxied export links for KoboToolbox projects to enhance data security and control when connecting to external services.</p>
-                <a href="https://kobo-proxy.imtools.info" target="_blank" class="btn-tool">Open Tool</a>
+                <div class="button-group">
+                    <a href="https://kobo-proxy.imtools.info" class="btn-tool" target="_blank">Open Tool</a>
+                    <a href="https://github.com/joshuaberetta/kobo-pbi-proxy" class="btn-github" target="_blank">View on GitHub</a>
+                </div>
             </div>
             
             <div class="tool-card">
                 <h3>Link Shortener</h3>
                 <p>Create, manage, and track short URLs for easy sharing.</p>
-                <a href="https://link.imtools.info" target="_blank" class="btn-tool">Open Tool</a>
+                <div class="button-group">
+                    <a href="https://link.imtools.info" class="btn-tool" target="_blank">Open Tool</a>
+                    <a href="https://github.com/joshuaberetta/url-shortener" class="btn-github" target="_blank">View on GitHub</a>
+                </div>
             </div>
             
             <div class="tool-card">
                 <h3>Audit2Geo</h3>
                 <p>Convert KoboToolbox audit logs into geospatial data for visualization and analysis.</p>
-                <a href="https://audit2geo.imtools.info" target="_blank" class="btn-tool">Open Tool</a>
+                <div class="button-group">
+                    <a href="https://audit2geo.imtools.info" class="btn-tool" target="_blank">Open Tool</a>
+                    <a href="https://github.com/joshuaberetta/audit2geo" class="btn-github" target="_blank">View on GitHub</a>
+                </div>
             </div>
             
             <div class="tool-card">
                 <h3>KoboToolbox Bulk Permissions Manager</h3>
                 <p>Manage bulk user permissions from a spreadsheet template to increase project management efficiency for large teams.</p>
-                <a href="https://bulk-perms.imtools.info" target="_blank" class="btn-tool">Open Tool</a>
+                <div class="button-group">
+                    <a href="https://bulk-perms.imtools.info" class="btn-tool" target="_blank">Open Tool</a>
+                    <a href="https://github.com/joshuaberetta/kobo-bulk-permissions" class="btn-github" target="_blank">View on GitHub</a>
+                </div>
             </div>
             
             <div class="tool-card">
                 <h3>QR Coder API</h3>
                 <p>Generate QR codes programmatically for URLs, text, and other data types using a simple API.</p>
-                <a href="https://qrcoder.imtools.info" target="_blank" class="btn-tool">Open Tool</a>
+                <div class="button-group">
+                    <a href="https://qrcoder.imtools.info" class="btn-tool" target="_blank">Open Tool</a>
+                    <a href="https://github.com/joshuaberetta/qrcoder" class="btn-github" target="_blank">View on GitHub</a>
+                </div>
             </div>
             
             <div class="tool-card">
                 <h3>KoboToolbox Bulk Data Import Script</h3>
                 <p>Import large datasets into KoboToolbox projects from Excel files.</p>
-                <a href="https://github.com/joshuaberetta/kobo-bulk-import" target="_blank" class="btn-tool">Open Tool</a>
+                <div class="button-group">
+                    <a href="https://github.com/joshuaberetta/kobo-bulk-import" class="btn-github" target="_blank">View on GitHub</a>
+                </div>
             </div>
             
             <div class="tool-card">
                 <h3>Kobo Transfer Script</h3>
                 <p>Transfer forms and data between KoboToolbox accounts and servers.</p>
-                <a href="https://github.com/kobotoolbox/kobo-transfer" target="_blank" class="btn-tool">Open Tool</a>
+                <div class="button-group">
+                    <a href="https://github.com/kobotoolbox/kobo-transfer" class="btn-github" target="_blank">View on GitHub</a>
+                </div>
+            </div>
+            
+            <div class="tool-card">
+                <h3>Kobomedia</h3>
+                <p>Download media files from KoboToolbox projects in bulk.</p>
+                <div class="button-group">
+                    <a href="https://github.com/joshuaberetta/kobomedia" class="btn-github" target="_blank">View on GitHub</a>
+                </div>
             </div>
             
             <div class="tool-card">
                 <h3>XLSForm Expert Claude Skill</h3>
                 <p>Use Claude.ai to help you create and troubleshoot XLSForms for KoboToolbox and ODK.</p>
-                <a href="https://link.imtools.info/xlsform-skill" target="_blank" class="btn-tool">Open Tool</a>
+                <div class="button-group">
+                    <a href="https://link.imtools.info/xlsform-skill" class="btn-tool" target="_blank">Open Tool</a>
+                </div>
             </div>
             
             <div class="tool-card" style="opacity: 0.7;">

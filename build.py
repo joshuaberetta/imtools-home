@@ -9,18 +9,6 @@ def build():
     # Generate HTML for tools
     tools_html = ""
     for tool in tools:
-        # Determine button style
-        button_class = "btn-tool"
-        href = f'href="{tool.get("url")}" target="_blank"'
-        
-        if not tool.get('active', True):
-            button_class += " btn-disabled"
-            href = "" # No link for disabled tools
-            # If it's a button element in original HTML, we should match that structure.
-            # In original HTML:
-            # Active tools used: <a href="..." class="btn-tool" target="_blank">Open Tool</a>
-            # Inactive tools used: <button class="btn-tool btn-disabled">Coming Soon</button>
-        
         # Build the card HTML
         style_attr = ' style="opacity: 0.7;"' if not tool.get('active', True) else ''
         
@@ -30,10 +18,29 @@ def build():
 """
         
         if tool.get('active', True):
-             tools_html += f"""                <a {href} class="{button_class}">{tool['button_text']}</a>
+            # Create button container if there are multiple buttons
+            has_url = tool.get('url')
+            has_github = tool.get('github')
+            
+            if has_url or has_github:
+                tools_html += f"""                <div class="button-group">
+"""
+                
+                # Add main tool button if URL exists
+                if has_url:
+                    tools_html += f"""                    <a href="{has_url}" class="btn-tool" target="_blank">{tool['button_text']}</a>
+"""
+                
+                # Add GitHub button if GitHub link exists (always use dark style)
+                if has_github:
+                    github_text = "View on GitHub" if has_url else tool['button_text']
+                    tools_html += f"""                    <a href="{has_github}" class="btn-github" target="_blank">{github_text}</a>
+"""
+                
+                tools_html += f"""                </div>
 """
         else:
-             tools_html += f"""                <button class="{button_class}">{tool['button_text']}</button>
+            tools_html += f"""                <button class="btn-tool btn-disabled">{tool['button_text']}</button>
 """
 
         tools_html += """            </div>
